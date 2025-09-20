@@ -114,7 +114,7 @@ const DestinationSearch = ({ onSelectDestination }: DestinationSearchProps) => {
                   className="w-full bg-gradient-ocean hover:shadow-glow transition-all duration-300"
                   onClick={() => onSelectDestination(destination)}
                 >
-                  Select Destination
+                  View Details
                 </Button>
               </CardContent>
             </Card>
