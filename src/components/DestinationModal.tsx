@@ -99,6 +99,174 @@ const destinationDetails: { [key: number]: any } = {
       { name: "Boutique Ryokan", type: "4-Star", price: 180, amenities: ["Traditional Style", "Hot Springs", "Kaiseki Dinner"] },
       { name: "Capsule Hotel", type: "Budget", price: 35, amenities: ["Modern Pods", "Shared Bath", "WiFi"] }
     ]
+  },
+  4: {
+    gallery: [beachImage, beachImage, beachImage],
+    fullDescription: "The Maldives represents the ultimate luxury beach destination with its pristine white sand beaches, crystal-clear turquoise waters, and overwater bungalows. This tropical paradise offers unparalleled relaxation and world-class diving experiences.",
+    weather: { temp: "30°C", season: "Tropical", rainfall: "Low" },
+    bestTime: "November - April",
+    language: "Dhivehi, English widely spoken",
+    currency: "Maldivian Rufiyaa (MVR), USD accepted",
+    timeZone: "MVT (UTC+5)",
+    highlights: [
+      "Overwater Bungalows",
+      "World-Class Diving Sites",
+      "Private Island Resorts",
+      "Coral Reef Conservation",
+      "Luxury Spa Treatments"
+    ],
+    activities: [
+      { name: "Sunset Dolphin Cruise", duration: "3 hours", price: 120, description: "Watch dolphins play in the golden sunset" },
+      { name: "Scuba Diving", duration: "Half Day", price: 150, description: "Explore vibrant coral reefs and marine life" },
+      { name: "Private Island Picnic", duration: "Full Day", price: 200, description: "Exclusive day on your own private island" },
+      { name: "Underwater Restaurant", duration: "2 hours", price: 300, description: "Dine surrounded by marine life" },
+      { name: "Seaplane Tour", duration: "1 hour", price: 180, description: "Aerial views of the atolls" }
+    ],
+    accommodation: [
+      { name: "Overwater Villa Resort", type: "5-Star", price: 800, amenities: ["Private Pool", "Butler Service", "Water Villa", "Spa"] },
+      { name: "Beach Resort", type: "4-Star", price: 400, amenities: ["Beach Access", "All-Inclusive", "Snorkeling"] },
+      { name: "Guesthouse", type: "Budget", price: 80, amenities: ["Local Island", "Authentic Experience", "Meals"] }
+    ]
+  },
+  5: {
+    gallery: [mountainImage, mountainImage, mountainImage],
+    fullDescription: "The Canadian Rockies offer some of North America's most spectacular mountain scenery with pristine lakes, glaciers, and abundant wildlife. This natural wonderland provides endless opportunities for outdoor adventure and breathtaking photography.",
+    weather: { temp: "18°C", season: "Mountain", rainfall: "Moderate" },
+    bestTime: "June - September",
+    language: "English, French",
+    currency: "Canadian Dollar (CAD)",
+    timeZone: "MST (UTC-7)",
+    highlights: [
+      "Banff & Jasper National Parks",
+      "Lake Louise & Moraine Lake",
+      "Glacier-Fed Lakes",
+      "Wildlife Watching",
+      "Mountain Railway"
+    ],
+    activities: [
+      { name: "Lake Louise Canoeing", duration: "3 hours", price: 75, description: "Paddle on the famous turquoise lake" },
+      { name: "Wildlife Safari", duration: "Full Day", price: 140, description: "Spot bears, elk, and mountain goats" },
+      { name: "Glacier Walk", duration: "6 hours", price: 160, description: "Walk on ancient glaciers with expert guides" },
+      { name: "Mountain Railway", duration: "4 hours", price: 95, description: "Scenic train through the Rockies" },
+      { name: "Helicopter Tour", duration: "45 minutes", price: 350, description: "Aerial views of peaks and glaciers" }
+    ],
+    accommodation: [
+      { name: "Mountain Lodge", type: "5-Star", price: 320, amenities: ["Mountain View", "Spa", "Fine Dining", "Guided Tours"] },
+      { name: "Lakeside Hotel", type: "4-Star", price: 180, amenities: ["Lake View", "Restaurant", "Activities"] },
+      { name: "Mountain Hostel", type: "Budget", price: 40, amenities: ["Shared Facilities", "Kitchen", "WiFi"] }
+    ]
+  },
+  6: {
+    gallery: [cityImage, cityImage, cityImage],
+    fullDescription: "New York City is the ultimate urban experience with its iconic skyline, world-class museums, Broadway shows, and diverse neighborhoods. From Central Park to Times Square, NYC offers endless entertainment and cultural experiences.",
+    weather: { temp: "20°C", season: "Continental", rainfall: "Moderate" },
+    bestTime: "April - June, September - November",
+    language: "English",
+    currency: "US Dollar (USD)",
+    timeZone: "EST (UTC-5)",
+    highlights: [
+      "Statue of Liberty",
+      "Broadway Shows",
+      "Central Park",
+      "9/11 Memorial",
+      "Brooklyn Bridge"
+    ],
+    activities: [
+      { name: "Broadway Show", duration: "3 hours", price: 150, description: "Watch a world-class musical or play" },
+      { name: "Statue of Liberty Tour", duration: "4 hours", price: 85, description: "Visit the iconic symbol of freedom" },
+      { name: "Central Park Bike Tour", duration: "3 hours", price: 45, description: "Explore the famous park on two wheels" },
+      { name: "Food Tour", duration: "4 hours", price: 95, description: "Taste NYC's diverse culinary scene" },
+      { name: "Empire State Building", duration: "2 hours", price: 75, description: "Iconic city views from the top" }
+    ],
+    accommodation: [
+      { name: "Luxury Manhattan Hotel", type: "5-Star", price: 450, amenities: ["Central Location", "Concierge", "Rooftop Bar", "Spa"] },
+      { name: "Boutique Hotel", type: "4-Star", price: 250, amenities: ["Stylish Rooms", "Restaurant", "Gym"] },
+      { name: "Hostel NYC", type: "Budget", price: 60, amenities: ["Shared Rooms", "Kitchen", "Common Area"] }
+    ]
+  },
+  7: {
+    gallery: [beachImage, beachImage, beachImage],
+    fullDescription: "Costa Rica offers an incredible eco-adventure with pristine beaches, lush rainforests, and abundant wildlife. This Central American paradise is perfect for those seeking both relaxation and adventure in a sustainable environment.",
+    weather: { temp: "26°C", season: "Tropical", rainfall: "Seasonal" },
+    bestTime: "December - April",
+    language: "Spanish, English widely spoken",
+    currency: "Costa Rican Colón (CRC), USD accepted",
+    timeZone: "CST (UTC-6)",
+    highlights: [
+      "Manuel Antonio National Park",
+      "Arenal Volcano",
+      "Cloud Forests",
+      "Wildlife Sanctuaries",
+      "Sustainable Tourism"
+    ],
+    activities: [
+      { name: "Zip-lining Adventure", duration: "4 hours", price: 85, description: "Soar through the rainforest canopy" },
+      { name: "Wildlife Watching", duration: "Full Day", price: 120, description: "Spot sloths, monkeys, and exotic birds" },
+      { name: "Volcano Hike", duration: "6 hours", price: 95, description: "Hike around the active Arenal Volcano" },
+      { name: "Beach Horseback Riding", duration: "3 hours", price: 75, description: "Ride along pristine beaches" },
+      { name: "Coffee Plantation Tour", duration: "Half Day", price: 55, description: "Learn about Costa Rican coffee culture" }
+    ],
+    accommodation: [
+      { name: "Eco-Luxury Resort", type: "5-Star", price: 300, amenities: ["Rainforest View", "Spa", "Sustainability Focus", "Wildlife"] },
+      { name: "Beach Hotel", type: "4-Star", price: 150, amenities: ["Beach Access", "Pool", "Restaurant"] },
+      { name: "Eco-Lodge", type: "Budget", price: 45, amenities: ["Shared Facilities", "Nature Immersion", "Local Culture"] }
+    ]
+  },
+  8: {
+    gallery: [mountainImage, mountainImage, mountainImage],
+    fullDescription: "The Himalayas of Nepal offer the world's most spectacular mountain trekking with views of Everest, rich Buddhist culture, and spiritual experiences. This is the ultimate destination for adventurers seeking high-altitude challenges and cultural immersion.",
+    weather: { temp: "12°C", season: "Mountain", rainfall: "Monsoon Season" },
+    bestTime: "September - November, March - May",
+    language: "Nepali, English",
+    currency: "Nepalese Rupee (NPR)",
+    timeZone: "NPT (UTC+5:45)",
+    highlights: [
+      "Mount Everest Base Camp",
+      "Ancient Monasteries",
+      "Sherpa Culture",
+      "Annapurna Circuit",
+      "Kathmandu Valley"
+    ],
+    activities: [
+      { name: "Everest Base Camp Trek", duration: "14 days", price: 1200, description: "Trek to the base of the world's highest peak" },
+      { name: "Monastery Visit", duration: "Full Day", price: 65, description: "Experience Buddhist monastery life" },
+      { name: "Mountain Flight", duration: "1 hour", price: 180, description: "Scenic flight viewing Everest" },
+      { name: "Cultural Tour Kathmandu", duration: "2 days", price: 150, description: "Explore UNESCO World Heritage sites" },
+      { name: "Short Trek Nagarkot", duration: "3 days", price: 200, description: "Gentle trek with Himalayan views" }
+    ],
+    accommodation: [
+      { name: "Luxury Hotel Kathmandu", type: "5-Star", price: 180, amenities: ["City Center", "Spa", "Mountain Views", "Cultural Tours"] },
+      { name: "Mountain Lodge", type: "4-Star", price: 80, amenities: ["Trekking Base", "Local Cuisine", "Guides"] },
+      { name: "Teahouse", type: "Budget", price: 15, amenities: ["Basic Accommodation", "Local Experience", "Trekking Route"] }
+    ]
+  },
+  9: {
+    gallery: [cityImage, cityImage, cityImage],
+    fullDescription: "Dubai is a futuristic city that combines luxury shopping, modern architecture, and traditional Arabian culture. This cosmopolitan destination offers world-class amenities, from indoor skiing to underwater hotels and desert adventures.",
+    weather: { temp: "32°C", season: "Desert", rainfall: "Very Low" },
+    bestTime: "November - March",
+    language: "Arabic, English widely spoken",
+    currency: "UAE Dirham (AED)",
+    timeZone: "GST (UTC+4)",
+    highlights: [
+      "Burj Khalifa",
+      "Dubai Mall",
+      "Palm Jumeirah",
+      "Desert Safaris",
+      "Luxury Shopping"
+    ],
+    activities: [
+      { name: "Burj Khalifa Visit", duration: "2 hours", price: 120, description: "Visit the world's tallest building" },
+      { name: "Desert Safari", duration: "6 hours", price: 95, description: "Dune bashing and Bedouin dinner" },
+      { name: "Dubai Mall Tour", duration: "4 hours", price: 60, description: "World's largest shopping and entertainment destination" },
+      { name: "Luxury Yacht Charter", duration: "4 hours", price: 300, description: "Cruise along Dubai's coastline" },
+      { name: "Skydiving", duration: "3 hours", price: 400, description: "Tandem jump over Palm Jumeirah" }
+    ],
+    accommodation: [
+      { name: "Burj Al Arab", type: "7-Star", price: 1200, amenities: ["Luxury Suite", "Butler Service", "Helicopter Transfer", "Private Beach"] },
+      { name: "Downtown Hotel", type: "5-Star", price: 350, amenities: ["Burj Khalifa View", "Multiple Restaurants", "Spa", "Pool"] },
+      { name: "City Hotel", type: "4-Star", price: 120, amenities: ["Central Location", "Pool", "Restaurant"] }
+    ]
   }
 };
 
