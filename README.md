@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# I am Gay
 
 ## Project info
 
