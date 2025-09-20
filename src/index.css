@@ -2,41 +2,62 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* Travel-inspired design system for Holiday Planner
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 220 15% 98%;
+    --foreground: 220 15% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 220 15% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 220 15% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 204 88% 35%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 32 95% 60%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 220 15% 96%;
+    --muted-foreground: 220 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 160 60% 50%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 15% 90%;
+    --input: 220 15% 95%;
+    --ring: 204 88% 35%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Travel theme colors */
+    --ocean-blue: 204 88% 35%;
+    --sunset-orange: 32 95% 60%;
+    --tropical-green: 160 60% 50%;
+    --warm-sand: 45 55% 85%;
+    --deep-ocean: 220 40% 25%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(204 88% 35%) 0%, hsl(220 40% 25%) 100%);
+    --gradient-sunset: linear-gradient(135deg, hsl(32 95% 60%) 0%, hsl(15 85% 55%) 100%);
+    --gradient-ocean: linear-gradient(180deg, hsl(204 88% 35%) 0%, hsl(204 88% 45%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(220 15% 98%) 100%);
+    
+    /* Shadows */
+    --shadow-soft: 0 4px 20px -2px hsl(220 15% 15% / 0.08);
+    --shadow-medium: 0 8px 30px -4px hsl(220 15% 15% / 0.12);
+    --shadow-large: 0 20px 60px -12px hsl(220 15% 15% / 0.16);
+    --shadow-glow: 0 0 40px hsl(204 88% 35% / 0.15);
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 

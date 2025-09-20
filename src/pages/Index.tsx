@@ -1,13 +1,37 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState } from "react";
+import Hero from "@/components/Hero";
+import DestinationSearch from "@/components/DestinationSearch";
+import ActivityPlanner from "@/components/ActivityPlanner";
+import TripItinerary from "@/components/TripItinerary";
+import BudgetTracker from "@/components/BudgetTracker";
 
 const Index = () => {
+  const [selectedDestination, setSelectedDestination] = useState<any>(null);
+  const [selectedActivities, setSelectedActivities] = useState<number[]>([]);
+
+  const handleSelectDestination = (destination: any) => {
+    setSelectedDestination(destination);
+  };
+
+  const handleToggleActivity = (activityId: number) => {
+    setSelectedActivities(prev => 
+      prev.includes(activityId) 
+        ? prev.filter(id => id !== activityId)
+        : [...prev, activityId]
+    );
+  };
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main className="min-h-screen">
+      <Hero />
+      <DestinationSearch onSelectDestination={handleSelectDestination} />
+      <ActivityPlanner 
+        selectedActivities={selectedActivities}
+        onToggleActivity={handleToggleActivity}
+      />
+      <TripItinerary />
+      <BudgetTracker />
+    </main>
   );
 };
 
