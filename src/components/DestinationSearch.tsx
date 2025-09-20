@@ -109,7 +109,7 @@ const destinations = [
   }
 ];
 
-const filterCategories = ["All", "Beach", "Mountain", "City", "Adventure"];
+const filterCategories = ["All", "Beach", "Mountain", "City"];
 
 interface DestinationSearchProps {
   onSelectDestination: (destination: any) => void;
